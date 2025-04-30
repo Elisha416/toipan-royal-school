@@ -41,7 +41,7 @@ const AcademicsSection = () => {
           </h2>
           
           <p className="text-xl text-indigo-800/80 max-w-3xl mx-auto font-light">
-            Our distinguished curriculum and esteemed faculty ensure that Toipan Royal School 
+            Our distinguished curriculum and esteemed staff ensure that Toipan Royal School 
             students receive an education of unparalleled quality, preparing them for success at prestigious 
             universities and beyond.
           </p>
@@ -89,12 +89,12 @@ const AcademicsSection = () => {
                 <p className="text-lg text-indigo-800/80 leading-relaxed">
                   Our meticulously crafted curriculum is designed to provide a comprehensive education that fosters critical thinking, 
                   intellectual curiosity, and practical proficiency. We follow the National Curriculum enhanced with advanced content 
-                  and international perspectives to prepare our students for global leadership.
+                  and perspectives to prepare our students for global leadership.
                 </p>
                 
                 <div className="space-y-6 pt-4">
                   {[
-                    { icon: <Book className="h-6 w-6 text-gold" />, text: "Core disciplines include  Mathematics, English Literature,Sciences, Humanities, and Modern Languages" },
+                    { icon: <Book className="h-6 w-6 text-gold" />, text: "Core disciplines include  Mathematics, English Literature,Sciences, Humanities" },
                     { icon: <Star className="h-6 w-6 text-gold" />, text: "Specialized electives in Sciences, Computer Studies and Business Studies" },
                     { icon: <FileText className="h-6 w-6 text-gold" />, text: "Exemplary preparing students for admission to  renowned institutions" },
                     { icon: <Clock className="h-6 w-6 text-gold" />, text: "Individualized academic pathways with comprehensive mentorship and support" },
@@ -265,7 +265,7 @@ const AcademicsSection = () => {
             <h3 className="text-3xl font-playfair font-bold text-white mb-8">Distinguished Staff</h3>
             
             <p className="text-xl text-white/90 mb-12 font-light leading-relaxed">
-              Our esteemed faculty comprises recognized experts in their respective fields, possessing advanced degrees 
+              Our esteemed staff comprises recognized experts in their respective fields, possessing advanced degrees 
               from prestigious universities and extensive teaching experience. They are dedicated to fostering each student's 
               intellectual growth, providing personalized mentorship, and inspiring excellence both within and beyond the classroom.
             </p>

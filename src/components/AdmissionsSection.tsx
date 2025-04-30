@@ -86,33 +86,7 @@ const AdmissionsSection = () => {
               academic environment and benefit from our holistic educational philosophy.
             </p>
             <div className="space-y-8 mb-10">
-              <div className="flex items-center gap-6 p-4 bg-white rounded-lg shadow-md border-l-4 border-royal-600 hover:shadow-lg transition-all duration-300">
-                <div className="bg-gradient-to-br from-royal-500 to-royal-700 p-3 rounded-full shadow-md">
-                  <Calendar className="h-7 w-7 text-white" />
-                </div>
-                <div>
-                  <h4 className="font-playfair font-bold text-xl text-royal-800">Applications Open</h4>
-                  <p className="text-gray-600">November 1 - March 31</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-6 p-4 bg-white rounded-lg shadow-md border-l-4 border-royal-600 hover:shadow-lg transition-all duration-300">
-                <div className="bg-gradient-to-br from-royal-500 to-royal-700 p-3 rounded-full shadow-md">
-                  <FileText className="h-7 w-7 text-white" />
-                </div>
-                <div>
-                  <h4 className="font-playfair font-bold text-xl text-royal-800">Entrance Exams</h4>
-                  <p className="text-gray-600">January - April (Monthly)</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-6 p-4 bg-white rounded-lg shadow-md border-l-4 border-royal-600 hover:shadow-lg transition-all duration-300">
-                <div className="bg-gradient-to-br from-royal-500 to-royal-700 p-3 rounded-full shadow-md">
-                  <Users className="h-7 w-7 text-white" />
-                </div>
-                <div>
-                  <h4 className="font-playfair font-bold text-xl text-royal-800">Open House Events</h4>
-                  <p className="text-gray-600">October, January, and April</p>
-                </div>
-              </div>
+              
             </div>
             <div className="space-x-4">
               <Button className="bg-gradient-to-r from-royal-600 to-royal-800 hover:from-royal-700 hover:to-royal-900 text-white py-6 px-8 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
@@ -175,7 +149,7 @@ const AdmissionsSection = () => {
             
             <p className="mb-8 text-royal-50 leading-relaxed text-lg relative z-10">
               Have questions about the admissions process? Our dedicated admissions team is here to provide personalized guidance. 
-              Reach out to us by phone, email, or schedule a private tour of our prestigious campus.
+              Reach out to us by phone, email, or schedule a private tour of our prestigious school.
             </p>
             
             <div className="space-y-6 mb-10 relative z-10">

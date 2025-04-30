@@ -48,11 +48,6 @@ const AboutSection = () => {
               noble character development, and influential leadership capabilities.
             </p>
             
-            <p className="text-lg text-indigo-800/80 leading-relaxed">
-              For nearly two years, we have upheld an esteemed tradition of excellence, empowering thousands 
-              of distinguished young women who have gone on to make remarkable contributions across diverse fields 
-              and continents, carrying forward our legacy of excellence and service.
-            </p>
             
             <Button className="mt-8 bg-indigo-900 hover:bg-indigo-800 text-white px-8 py-6 rounded-none border-2 border-transparent hover:border-gold transition-all duration-300 shadow-lg" asChild>
               <a href="#history">Explore Our Royal Heritage</a>
@@ -124,7 +119,7 @@ const AboutSection = () => {
             {
               icon: <Heart className="h-12 w-12 text-gold" />,
               title: "Nurturing Community",
-              description: "We cultivate a supportive environment where every young woman is valued, uplifted, and empowered to pursue her highest aspirations."
+              description: "We cultivate a supportive environment where every young girl is valued, uplifted, and empowered to pursue her highest aspirations."
             },
             {
               icon: <Sparkles className="h-12 w-12 text-gold" />,

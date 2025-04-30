@@ -102,7 +102,7 @@ const CampusSection = () => {
               },
               {
                 icon: <BookOpen className="h-10 w-10 text-amber-500" />,
-                title: "Grand Library & Resource Center",
+                title: "Upcoming Grand Library & Resource Center",
                 description: "An extensive collection of literature, digital archives, and dedicated study spaces for scholarly research."
               },
               {
@@ -117,8 +117,8 @@ const CampusSection = () => {
               },
               {
                 icon: <Music className="h-10 w-10 text-amber-500" />,
-                title: "Arts & Performance Theatre",
-                description: "Professional studios for visual arts, dance, music, and a magnificent 300-seat auditorium for prestigious productions."
+                title: "Upcoming Arts & Performance Theatre",
+                description: "Professional studios for visual arts, dance, music, and a magnificent 1000-seater auditorium for prestigious productions."
               },
               {
                 icon: <Medal className="h-10 w-10 text-amber-500" />,
