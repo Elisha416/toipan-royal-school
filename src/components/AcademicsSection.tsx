@@ -94,9 +94,9 @@ const AcademicsSection = () => {
                 
                 <div className="space-y-6 pt-4">
                   {[
-                    { icon: <Book className="h-6 w-6 text-gold" />, text: "Core disciplines include Advanced Mathematics, English Literature, Natural Sciences, Classical History, and Modern Languages" },
-                    { icon: <Star className="h-6 w-6 text-gold" />, text: "Specialized electives in Fine Arts, Classical Music, Advanced Technology, and Business Leadership" },
-                    { icon: <FileText className="h-6 w-6 text-gold" />, text: "University-level courses preparing students for admission to the world's most prestigious institutions" },
+                    { icon: <Book className="h-6 w-6 text-gold" />, text: "Core disciplines include  Mathematics, English Literature,Sciences, Humanities, and Modern Languages" },
+                    { icon: <Star className="h-6 w-6 text-gold" />, text: "Specialized electives in Sciences, Computer Studies and Business Studies" },
+                    { icon: <FileText className="h-6 w-6 text-gold" />, text: "Exemplary preparing students for admission to  renowned institutions" },
                     { icon: <Clock className="h-6 w-6 text-gold" />, text: "Individualized academic pathways with comprehensive mentorship and support" },
                   ].map((item, index) => (
                     <div key={index} className="flex items-start p-4 bg-white border-l-4 border-gold shadow-sm hover:shadow-md transition-shadow">
@@ -191,10 +191,10 @@ const AcademicsSection = () => {
                   <div className="border-l-4 border-gold pl-6 py-2">
                     <div className="flex items-center mb-2">
                       <Trophy className="h-6 w-6 text-gold mr-2" />
-                      <h4 className="text-2xl font-playfair font-bold text-indigo-900">Prestigious University Placements</h4>
+                      <h4 className="text-2xl font-playfair font-bold text-indigo-900"></h4>
                     </div>
                     <p className="text-indigo-800/80 mt-2 text-lg">
-                      100% of our graduates secure admission to prestigious universities globally, including Oxford, Cambridge, Harvard, Yale, and other world-renowned institutions.
+                      100% of our graduates secure admission to renowned universities  renowned.
                     </p>
                   </div>
                   
@@ -204,7 +204,7 @@ const AcademicsSection = () => {
                       <h4 className="text-2xl font-playfair font-bold text-indigo-900">Academic Competitions</h4>
                     </div>
                     <p className="text-indigo-800/80 mt-2 text-lg">
-                      Our students consistently earn gold medals and top honors in International Science Olympiads, Global Mathematics Challenges, and World Literary Competitions.
+                      Our students consistently earn awards in Interschools Science competitions, Mathematics Challenges, and Literary Competitions.
                     </p>
                   </div>
                 </div>
@@ -213,10 +213,10 @@ const AcademicsSection = () => {
                   <div className="border-l-4 border-gold pl-6 py-2">
                     <div className="flex items-center mb-2">
                       <Medal className="h-6 w-6 text-gold mr-2" />
-                      <h4 className="text-2xl font-playfair font-bold text-indigo-900">Merit Scholarships</h4>
+                      <h4 className="text-2xl font-playfair font-bold text-indigo-900"></h4>
                     </div>
                     <p className="text-indigo-800/80 mt-2 text-lg">
-                      Over 60% of our graduates receive prestigious merit scholarships to the world's most selective universities and educational institutions.
+                      
                     </p>
                   </div>
                   
@@ -226,7 +226,7 @@ const AcademicsSection = () => {
                       <h4 className="text-2xl font-playfair font-bold text-indigo-900">Distinguished Research</h4>
                     </div>
                     <p className="text-indigo-800/80 mt-2 text-lg">
-                      Student research projects have been published in respected academic journals and presented at prestigious national and international conferences.
+                      Student research projects have been published in respected academic journals and presented at national and international conferences.
                     </p>
                   </div>
                   
@@ -272,10 +272,7 @@ const AcademicsSection = () => {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-center mb-12">
               {[
-                { value: '45+', label: 'Distinguished Staff Members' },
-                { value: '85%', label: 'With Doctoral Degrees' },
-                { value: '12:1', label: 'Student-staff Ratio' },
-                { value: '18', label: 'International Teaching Awards' },
+               
               ].map((stat, index) => (
                 <div key={index} className="p-6 border border-white/20 hover:border-gold/40 transition-all duration-300">
                   <div className="text-4xl font-playfair font-bold text-gold mb-2">{stat.value}</div>

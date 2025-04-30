@@ -33,7 +33,7 @@ const Footer = () => {
           
           <div className="md:max-w-sm">
             <p className="text-royal-100 italic text-lg border-l-4 border-amber-500/50 pl-4">
-              "Empowering young women through excellence in education, leadership, and character development since 2023."
+              "Empowering young girls through excellence in education, leadership, and character development since 2023."
             </p>
           </div>
           

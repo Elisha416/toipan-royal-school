@@ -81,7 +81,7 @@ const AdmissionsSection = () => {
           <div>
             <h3 className="text-3xl font-playfair font-bold text-royal-700 mb-8">Begin Your Journey at Toipan Royal</h3>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              We seek motivated young women who are eager to learn, lead, and contribute to our distinguished community. 
+              We seek motivated young girls who are eager to learn, lead, and contribute to our distinguished community. 
               Our meticulous admissions process identifies students who will flourish in our challenging 
               academic environment and benefit from our holistic educational philosophy.
             </p>

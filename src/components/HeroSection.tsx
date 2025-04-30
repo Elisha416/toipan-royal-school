@@ -75,10 +75,7 @@ const HeroSection = () => {
         {/* Enhanced Stats */}
         <div className="mt-28 grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { value: '2', label: 'Years of Royal Excellence' },
-            { value: '100%', label: 'Student Acceptance' },
-            { value: '1000+', label: 'Students' },
-            { value: '12:1', label: 'Student-Faculty Ratio' },
+            
           ].map((stat, index) => (
             <div 
               key={index} 

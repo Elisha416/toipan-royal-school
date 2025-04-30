@@ -30,32 +30,7 @@ interface Event {
 const NewsEventsSection = () => {
   const [activeTab, setActiveTab] = useState("news");
   
-  const newsItems: NewsItem[] = [
-    {
-      id: 1,
-      title: "Toipan Royal Students Win National Science Competition",
-      excerpt: "Our science team secured first place at the National Science Olympiad, showcasing exceptional talent in chemistry and physics projects.",
-      date: "April 15, 2023",
-      image: "/api/placeholder/640/360",
-      category: "Academic"
-    },
-    {
-      id: 2,
-      title: "New Performing Arts Center Opening Ceremony",
-      excerpt: "The state-of-the-art performing arts center was inaugurated with a spectacular student performance and distinguished guests in attendance.",
-      date: "March 8, 2023",
-      image: "/api/placeholder/640/360",
-      category: "Campus"
-    },
-    {
-      id: 3,
-      title: "Annual Cultural Festival Celebrates Diversity",
-      excerpt: "Students showcased their heritage through performances, exhibitions, and culinary experiences during our week-long cultural celebration.",
-      date: "February 22, 2023",
-      image: "/api/placeholder/640/360",
-      category: "Events"
-    }
-  ];
+ 
 
   const upcomingEvents: Event[] = [
     {
@@ -145,52 +120,9 @@ const NewsEventsSection = () => {
         </div>
         
         {/* News Tab */}
-        {activeTab === "news" && (
-          <div className="mb-20">
-            <div className="grid md:grid-cols-3 gap-10">
-              {newsItems.map((news) => (
-                <Card key={news.id} className="overflow-hidden border border-gray-100 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 bg-white">
-                  <div className="h-64 overflow-hidden relative">
-                    <div className="absolute inset-0 bg-gradient-to-t from-royal-900/70 to-transparent z-10"></div>
-                    <img 
-                      src={news.image} 
-                      alt={news.title}
-                      className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
-                    />
-                    <span className="absolute top-4 left-4 text-xs font-semibold px-4 py-1.5 bg-amber-400 text-royal-900 rounded-full z-20 shadow-md flex items-center gap-1">
-                      <Star className="h-3 w-3" />
-                      {news.category}
-                    </span>
-                  </div>
-                  <CardHeader className="pt-8 pb-2">
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="text-sm text-royal-500 flex items-center font-medium">
-                        <CalendarIcon className="h-4 w-4 mr-2" />
-                        {news.date}
-                      </span>
-                    </div>
-                    <CardTitle className="text-2xl font-playfair font-bold text-royal-800 leading-tight">{news.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="py-4">
-                    <p className="text-gray-700 leading-relaxed">{news.excerpt}</p>
-                  </CardContent>
-                  <CardFooter className="pt-0 pb-8">
-                    <Button variant="ghost" className="text-royal-600 hover:text-royal-800 p-0 flex items-center group font-medium">
-                      Read Full Story 
-                      <ArrowRight className="h-4 w-4 ml-2 transform group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              ))}
-            </div>
+        
             
-            <div className="flex justify-center mt-16">
-              <Button className="bg-gradient-to-r from-royal-600 to-royal-800 hover:from-royal-700 hover:to-royal-900 text-white px-10 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-medium text-lg">
-                View All News
-              </Button>
-            </div>
-          </div>
-        )}
+           
         
         {/* Events Tab */}
         {activeTab === "events" && (

@@ -98,7 +98,7 @@ const ContactSection = () => {
               {/* This would be replaced with an actual map in a real implementation */}
               <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                 <MapPin className="h-16 w-16 text-royal-600" />
-                <span className="ml-3 text-2xl text-royal-700 font-serif font-medium">Estate Grounds</span>
+                <span className="ml-3 text-2xl text-royal-700 font-serif font-medium"></span>
               </div>
             </div>
           </div>
